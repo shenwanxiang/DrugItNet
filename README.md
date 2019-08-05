@@ -17,4 +17,17 @@ The three channels will be trained separately in the first few layers, after tha
 
 [Cytochrome P450](https://en.wikipedia.org/wiki/Cytochrome_P450) is a big fammily with many members. CYPs are the major enzymes involved in drug metabolism, accounting for about 75% of the total metabolism. So many compunds or drugs are the substrates of different CYP fammily members at the same time. Take a paper here: ['Prediction of Human Cytochrome P450 Inhibition Using a Multitask Deep Autoencoder Neural Network.'](https://www.ncbi.nlm.nih.gov/pubmed/29775322). I am going to use the dataset in this paper, namely the assay id in PubChem is [AID 1851](https://pubchem.ncbi.nlm.nih.gov/bioassay/1851#section=Data-Table)
 
- <table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>active_CIDs</th>      <th>inactive_CIDs</th>      <th>Inconclusive_CIDs</th>    </tr>  </thead>  <tbody>    <tr>      <th>cyp2c19</th>      <td>5045</td>      <td>7133</td>      <td>4382</td>    </tr>    <tr>      <th>cyp2d6</th>      <td>1630</td>      <td>10824</td>      <td>4106</td>    </tr>    <tr>      <th>cyp3a4</th>      <td>3543</td>      <td>7381</td>      <td>5636</td>    </tr>    <tr>      <th>cyp1a2</th>      <td>4461</td>      <td>6966</td>      <td>5133</td>    </tr>    <tr>      <th>cyp2c9</th>      <td>3011</td>      <td>8344</td>      <td>5205</td>    </tr>    <tr>      <th>total_unique_cids</th>      <td>9149</td>      <td>14555</td>      <td>13071</td>    </tr>  </tbody></table>
+<table border="1" class="dataframe"> 
+  <thead>   
+    <tr style="text-align: center;">   
+    <th></th>  <th>active_CIDs</th>    <th>inactive_CIDs</th>      <th>Inconclusive_CIDs</th>   </tr>  
+  </thead> 
+  <tbody>    
+   <tr>      <th>cyp2c19</th>      <td>5045</td>      <td>7133</td>      <td>4382</td>    </tr>   
+   <tr>      <th>cyp2d6</th>      <td>1630</td>      <td>10824</td>      <td>4106</td>    </tr>    
+   <tr>      <th>cyp3a4</th>      <td>3543</td>      <td>7381</td>      <td>5636</td>    </tr>    
+   <tr>      <th>cyp1a2</th>      <td>4461</td>      <td>6966</td>      <td>5133</td>    </tr>    
+   <tr>      <th>cyp2c9</th>      <td>3011</td>      <td>8344</td>      <td>5205</td>    </tr>    
+   <tr>      <th>total_unique_cids</th>      <td>9149</td>      <td>14555</td>      <td>13071</td>   </tr>  
+  </tbody>
+</table>
