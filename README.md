@@ -32,3 +32,7 @@ The three channels will be trained separately in the first few layers, after tha
    <tr>      <th>total_unique_cids</th>      <td>9149</td>      <td>14555</td>      <td>13071</td>   </tr>  
   </tbody>
 </table>
+
+
+* Figure 1 shows total 145 compunds are the inhibitors for all the five subtype enzymes
+![number of corss inhibitors](https://github.com/shenwanxiang/DrugIt-Net/blob/master/data/cross_inhibitors.png?raw=true)
