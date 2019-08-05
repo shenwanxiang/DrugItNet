@@ -1,7 +1,7 @@
 # DrugIt-Net
 
 
-## 1) Three Channels Inputs
+## 1) Three Channels Inputs：Physicochemical, Structurally topological, Pharmacodynamic vectors
 This is a 2D convolutional neural network architecture. 
 The first layer consists of a fully connected layer, which inputs three channels of `molecular fingerprints`, `molecular descriptors`, and `2d molecular pharmacophores`. 
 The second layer is convolution layer, but it is different from image processing in ResNet, the three channels are going to be done by reduce_max insteads of reduce_sum
