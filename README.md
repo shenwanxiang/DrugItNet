@@ -33,12 +33,13 @@ The three channels will be trained separately in the first few layers, after tha
   </tbody>
 </table>
 
-
-* Figure 1 shows total 145 compunds are the inhibitors for all the five subtype enzymes
+---
 <img src="https://raw.githubusercontent.com/shenwanxiang/DrugIt-Net/master/data/cross_inhibitors.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
+* Figure 1 shows total 145 compunds are the inhibitors for all the five subtype enzymes
+---
 
-* Figure 2 shows total 2027 compunds are the non-inhibitors for all the five subtype enzymes
 <img src="https://raw.githubusercontent.com/shenwanxiang/DrugIt-Net/master/data/cross-non-inhibitors.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
+* Figure 2 shows total 2027 compunds are the non-inhibitors for all the five subtype enzymes
 
 
      
