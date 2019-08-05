@@ -21,7 +21,7 @@ The three channels will be trained separately in the first few layers, after tha
 <table  class="dataframe" align="center"> 
   <thead>   
     <tr style="text-align: justify;">   
-    <th></th>  <th>active_CIDs</th>    <th>inactive_CIDs</th>      <th>Inconclusive_CIDs</th>   </tr>  
+    <th></th>  <th>Active_CIDs</th>    <th>Inactive_CIDs</th>      <th>Inconclusive_CIDs</th>   </tr>  
   </thead> 
   <tbody>    
    <tr>      <th>cyp2c19</th>      <td>5045</td>      <td>7133</td>      <td>4382</td>    </tr>   
