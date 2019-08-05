@@ -6,6 +6,9 @@ This is a 2D convolutional neural network architecture.
 The first layer consists of a fully connected layer, which inputs three channels of `molecular fingerprints`, `molecular descriptors`, and `2d molecular pharmacophores`. 
 The second layer is convolution layer, but it is different from image processing in ResNet, the three channels are going to be done by reduce_max insteads of reduce_sum
 
+fingerprint like ECFP will be used as of the input Channel, the ECFP radius will be a hyper-parameter in our model:
+<img src="https://github.com/shenwanxiang/DrugIt-Net/blob/master/data/fingerprint.jpg?raw=true" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
+
 
 #### 2) Fully Connected layer is commit to learn the pre-convolution matrix
 
